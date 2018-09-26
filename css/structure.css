@@ -1,4 +1,79 @@
 
-section#structure {
-	height: 100vh;
+section#structure>section {
+	width: 80em;
+	max-width: 100%;
+	padding: 0 2.5em;
+	padding-bottom: 2.5em;
+	margin: 0 auto;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+section#structure>section h3 {
+	font-size: 1.75em;
+	font-weight: 400;
+}
+
+section#structure>section span {
+	color: #ed2d39;
+	font-weight: 600;
+}
+
+section#structure>section b {
+	font-weight: 600;
+}
+
+section#structure>section h2 {
+	margin: 0.5em 0;
+	margin-top: 1.5em;
+	font-size: 2.5em;
+}
+
+section#structure>section h2 span {
+	color: #fff;
+	padding: 0.125em 0.5em;
+	background-color: #ed2d39;
+	border-radius: 4px;
+	font-weight: 300;
+}
+
+section#structure>section>div {
+	margin-bottom: 5em;
+	text-align: center;
+}
+
+section#structure>section>div>div {
+	display: inline-block;
+	width: 30em;
+	margin: 1em;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+section#structure>section>div>div div.picture {
+	height: 20em;
+	background-color: #555;
+	background-position: center;
+	background-size: cover;
+}
+
+section#structure>section>div>div h4 {
+	margin: 0.75em;
+	margin-bottom: 0.375em;
+	font-size: 1.75em;
+	font-weight: 300;
+}
+
+section#structure>section>div>div h5 {
+	margin: 0.75em;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+section#structure>section>div>div p {
+	padding: 0 1.5em;
+	padding-bottom: 0.5em;
+	line-height: 1.375em;
 }

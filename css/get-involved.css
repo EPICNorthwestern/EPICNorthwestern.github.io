@@ -1,4 +1,70 @@
 
-section#get-involved {
-	height: 100vh;
+section#get-involved>section {
+	width: 67em;
+	max-width: 100%;
+	padding: 0 2.5em;
+	padding-bottom: 2.5em;
+	margin: 0 auto;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+section#get-involved>section h3 {
+	font-size: 1.75em;
+	font-weight: 400;
+}
+
+section#get-involved>section span {
+	color: #ed2d39;
+	font-weight: 600;
+}
+
+section#get-involved>section b {
+	font-weight: 600;
+}
+
+section#get-involved>section>div {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+section#get-involved>section>div>div {
+	flex: 1;
+	padding: 1em;
+}
+
+section#get-involved>section>div>div h2 {
+	margin: 0.5em 0;
+	font-size: 2.5em;
+}
+
+section#get-involved>section>div>div h2 span {
+	color: #fff;
+	padding: 0.125em 0.5em;
+	background-color: #ed2d39;
+	border-radius: 4px;
+	font-weight: 300;
+}
+
+section#get-involved>section>div>div>div {
+	padding: 1em 2.5em;
+	padding-bottom: 1.5em;
+	margin: 1em 0;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	text-align: left;
+}
+
+section#get-involved>section>div>div>div h4 {
+	margin: 0.5em 0;
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+section#get-involved>section>div>div>div p {
+	margin: 1em 0;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.375em;
 }
